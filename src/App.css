@@ -36,3 +36,44 @@
     transform: rotate(360deg);
   }
 }
+
+/* Button style for Increase */
+.increase-button {
+  background-color: rgb(53, 151, 53); /* Green background color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 50%; /* Make it a circle */
+  width: 30px; /* Set width */
+  height: 30px; /* Set height */
+  font-size: 30px; /* Adjust font size */
+  cursor: pointer; /* Change cursor on hover */
+  display: flex; /* Make contents flex */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  padding: 0; /* Remove padding to center horizontally */
+  
+}
+
+.decrease-button {
+  background-color: red; /* Red background color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  border-radius: 50%; /* Make it a circle */
+  width: 30px; /* Set width */
+  height: 30px; /* Set height */
+  font-size: 30px; /* Adjust font size */
+  cursor: pointer; /* Change cursor on hover */
+  display: flex; /* Make contents flex */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  padding: 0; /* Remove padding to center horizontally */
+}
+
+
+
+/* Remove default button styles */
+.increase-button:focus {
+  outline: none;
+}
+
+
